@@ -1,5 +1,5 @@
-const BRANCAS = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
-const PRETAS = ['s', 'd', 'g', 'h', 'j'];
+const BRANCAS = ['z', 'x', 'c', 'v', 'b', 'n', 'm', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i'];
+const PRETAS = ['s', 'd', 'g', 'h', 'j', '2', '3', '5', '6', '7'];
 
 const keys = document.querySelectorAll('.tecla');
 const teclaB = document.querySelectorAll('.tecla.branca');
