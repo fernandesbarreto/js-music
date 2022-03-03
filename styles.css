@@ -13,9 +13,22 @@ body {
   align-items: center;
 }
 
+.button {
+  background-color: rgb(56, 24, 3);
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
 .piano {
   display: flex;
   border: 2px solid black;
+  box-shadow: 0px 0px 43px 17px rgb(54, 32, 6);
 }
 
 .tecla {
@@ -44,4 +57,20 @@ body {
 
 .preta.ativo {
   background-color: black;
+}
+
+.branca.errado {
+  background-color: rgb(216, 84, 84);
+}
+
+.preta.errado {
+  background-color: rgb(95, 45, 45);
+}
+
+.branca.certo {
+  background-color: rgb(84, 216, 95);
+}
+
+.preta.certo {
+  background-color: rgb(45, 95, 48);
 }
